@@ -7,6 +7,7 @@ import javax.validation.constraints.Size;
 import java.io.File;
 
 @Entity
+@Table(name="FileRef")
 public class FileRef {
 
     private final static int size = 1024 * 1024; //1GB

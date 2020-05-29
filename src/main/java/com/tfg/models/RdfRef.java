@@ -4,6 +4,7 @@ import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 @Entity
+@Table(name="RdfRef")
 public class RdfRef {
 
     private final static int size = 1024 * 1024; //1GB
